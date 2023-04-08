@@ -30,6 +30,9 @@ nav {
     flex: 1;
     text-align: center;
 }
+nav ul {
+    margin: 0;
+}
 nav ul li {
     list-style: none;
     display: inline-block;
