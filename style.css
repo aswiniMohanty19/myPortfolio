@@ -484,7 +484,19 @@ padding-top: 30px;
                 width: 200px;
                 height: 40px;
                 font-size: 11px;
-              }            
+              }
+    .mailBtn:hover {
+    width: 200px;
+    height: 40px;
+    border-radius: 100px;
+    font-size: 11px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    }      
+            
 
     .contactIcon {
                 padding: 30px 0;
