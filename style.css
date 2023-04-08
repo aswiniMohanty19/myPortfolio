@@ -175,6 +175,60 @@ h2 {
     }
 
 
+    
+
+/* --------------------EXPERIENCE-------------------- */
+
+#exprience {
+    padding-top: 12vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-item-exp {
+    background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(241, 241, 241) 75%);
+    height: 150px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.grid-item-exp, h4, p {
+    text-align: center;
+}
+h4 {
+    font-size: 25px;
+    margin-bottom: auto;
+}
+
+
+@media only screen and (max-width:412px){
+
+    #exprience {
+        overflow: hidden;
+    }
+    .grid-item-exp {
+        height: 150px;
+        width: 320px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    h4 span {
+        display: block;
+    }
+    p {
+        font-size: 14px;
+    }
+
+
+}
+
+
+
 /* --------------------ABOUT ME-------------------- */
 
 #aboutMe {
