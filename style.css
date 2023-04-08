@@ -228,6 +228,59 @@ h4 {
 
 
 
+/* --------------------SKILLS-------------------- */
+
+#skills {
+    overflow: hidden;
+  }
+.grid-container-sk1 {
+display: grid;
+align-items: center;
+justify-content: center;
+grid-template-columns: auto auto auto auto;
+padding-top: 30px;
+}  
+.grid-container-sk2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto   ;
+    padding-top: 40px;
+    }
+.grid-item-sk, .grid-item-sk2 {
+    text-align: center;
+    }    
+#skills img {
+    width: 45%;
+    border-radius: 20px;
+}    
+
+
+@media only screen and (max-width:412px)
+{
+    #skills {
+        overflow: hidden;
+    }
+    #skills h2 {
+        margin-bottom: 0;
+    }
+    #skills img {
+        width: 40px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .grid-container-sk1 {
+        padding-top: 0px;
+    }  
+    .grid-container-sk2 {
+        padding-top: 0px;
+    }
+
+
+}
+
+
+
 /* --------------------ABOUT ME-------------------- */
 
 #aboutMe {
