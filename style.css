@@ -208,7 +208,6 @@ h2 {
     height: 350px;
     width: 250px;
     margin: 20px;
-    background-color: #252525;
 }
 .grid-item-br img {
     height: 350px;
@@ -231,8 +230,12 @@ h2 {
     .grid-item-br {
         height: 210px;
         width: 150px;
-        background-color: #252525;
         margin: 9px 10px;
+    }
+    .grid-item-br img {
+        height: 210px;
+        width: 150px;
+        object-fit: fill;
     }
     
 
