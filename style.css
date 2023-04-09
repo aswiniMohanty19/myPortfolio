@@ -138,7 +138,7 @@ h1 {
     }
 
 
-/* --------------------PORTFOLIO-------------------- */
+/* --------------------PORTFOLIO-LOGOS-------------------- */
 
 #logos {
     padding-top: 12vh;
@@ -184,6 +184,60 @@ h2 {
     
     
     }
+
+/* --------------------PORTFOLIO-BRANDING-------------------- */   
+
+#branding {
+    overflow: hidden;
+}
+.grid-container-br1, .grid-container-br2, .grid-container-br3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-container-br1 {
+    margin-right: 75px;
+}
+.grid-container-br2 {
+    margin-left: 75px;
+}
+.grid-container-br3 {
+    margin-right: 75px;
+}
+.grid-item-br {
+    height: 350px;
+    width: 250px;
+    margin: 20px;
+    background-color: #252525;
+}
+.grid-item-br img {
+    height: 350px;
+    width: 250px;
+    object-fit: fill;
+}
+
+
+
+@media only screen and (max-width:412px) {
+
+    #branding {
+        overflow: hidden;        
+    }
+    .grid-container-br1, .grid-container-br2, .grid-container-br3 {
+        display: grid;
+        margin: 0;
+        grid-template-columns: auto auto;
+    }
+    .grid-item-br {
+        height: 210px;
+        width: 150px;
+        background-color: #252525;
+        margin: 9px 10px;
+    }
+    
+
+
+}
 
 
 
